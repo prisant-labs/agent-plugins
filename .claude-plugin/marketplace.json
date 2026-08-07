@@ -1,0 +1,17 @@
+{
+  "name": "agent-plugins",
+  "description": "Marketplace for prisant-labs Claude Code plugins.",
+  "owner": {
+    "name": "JP Prisant"
+  },
+  "plugins": [
+    {
+      "name": "nonfiction-studio",
+      "source": {
+        "source": "github",
+        "repo": "prisant-labs/nonfiction-studio"
+      },
+      "description": "Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support."
+    }
+  ]
+}
