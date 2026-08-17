@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## 2026-08-17
 
+### Changed
+
+- Repinned `prisant-utilities` from `v0.1.0` to `v0.1.1`.
+
 ### Added
 
 - **`prisant-utilities`**, pinned to `v0.1.0`. Five agent skills for session continuity, structured analysis, guide authoring, and cross-LLM peer review, carrying the `plab-` prefix. Source is `github: prisant-labs/prisant-utilities` at the tag, not `main`, so consumers track releases rather than unreleased work.
