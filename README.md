@@ -19,6 +19,7 @@ Then install what you want:
 | Plugin | What it does | Status |
 |---|---|---|
 | [nonfiction-studio](https://github.com/prisant-labs/nonfiction-studio) | Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support. | Not yet public |
+| [prisant-utilities](https://github.com/prisant-labs/prisant-utilities) | Session continuity (wrap and resume), structured analysis briefs, guide bundles, and cross-LLM peer review. Five skills, `plab-` prefix. | Available |
 
 **Note on availability:** this marketplace is public, but a plugin listed here installs only once its own repository is public. An entry marked "Not yet public" above will fail to install until that happens. The listing is published early so the marketplace name is stable from the start.
 
