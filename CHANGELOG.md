@@ -8,6 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-18
+
+### Changed
+
+- Repinned `prisant-utilities` from `v0.1.1` to `v0.1.2`. A correctness release for the session pair:
+  `plab-wrap-session` 1.4.1 and `plab-continue-session` 1.2.1. Both skills had listed status questions
+  ("what did we do?", "where were we?") among their activation triggers, so asking for an answer could
+  get you a procedure instead of an answer. Both now decline those and respond directly. Quick-mode and
+  blocked-mode wraps also stop emitting session logs that the wrap skill's own self-check rejects. No
+  format change: logs written by the previous versions read and parse identically, so nothing already
+  written needs migrating. Existing installs pick this up on `/plugin update`.
+
 ## 2026-08-17
 
 ### Changed

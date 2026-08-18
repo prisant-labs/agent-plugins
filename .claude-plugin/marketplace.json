@@ -18,10 +18,10 @@
       "source": {
         "source": "github",
         "repo": "prisant-labs/prisant-utilities",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "General-purpose agent skills for session continuity, structured analysis, guide authoring, and cross-LLM peer review.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "homepage": "https://github.com/prisant-labs/prisant-utilities",
       "license": "MIT"
     }
