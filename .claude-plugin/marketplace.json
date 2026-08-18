@@ -8,16 +8,16 @@
     {
       "name": "nonfiction-studio",
       "source": {
-        "source": "github",
-        "repo": "prisant-labs/nonfiction-studio"
+        "source": "url",
+        "url": "https://github.com/prisant-labs/nonfiction-studio.git"
       },
       "description": "Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support."
     },
     {
       "name": "prisant-utilities",
       "source": {
-        "source": "github",
-        "repo": "prisant-labs/prisant-utilities",
+        "source": "url",
+        "url": "https://github.com/prisant-labs/prisant-utilities.git",
         "ref": "v0.1.2"
       },
       "description": "General-purpose agent skills for session continuity, structured analysis, guide authoring, and cross-LLM peer review.",

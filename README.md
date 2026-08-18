@@ -5,7 +5,7 @@ Marketplace for [prisant-labs](https://github.com/prisant-labs) Claude Code plug
 Add it once and every plugin published here becomes available, including ones added later.
 
 ```
-/plugin marketplace add prisant-labs/agent-plugins
+/plugin marketplace add https://github.com/prisant-labs/agent-plugins
 ```
 
 Then install what you want:
