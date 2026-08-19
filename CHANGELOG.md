@@ -16,6 +16,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 
+- Repinned `prisant-utilities` from `v0.1.2` to `v0.2.0`. Session logs can now be archived by month:
+  `/plab-wrap-session --organize` files logs from closed months into `YYYY-MM/` subfolders, keeping the
+  current and previous month flat. Nothing moves without confirmation and nothing is ever deleted.
+  Deep and final wraps also raise it on their own, so the command does not have to be remembered.
+  `/plab-continue-session` reads the flat store and the month folders as one set ordered by filename,
+  so resuming is unaffected before, during, or after archiving. Skills: `plab-wrap-session` 1.5.0 and
+  `plab-continue-session` 1.3.0. Both ship together because the reader has to understand month folders
+  before anything is filed into one. No format change: existing logs need no migration. Existing
+  installs pick this up on `/plugin update`.
 - Repinned `prisant-utilities` from `v0.1.1` to `v0.1.2`. A correctness release for the session pair:
   `plab-wrap-session` 1.4.1 and `plab-continue-session` 1.2.1. Both skills had listed status questions
   ("what did we do?", "where were we?") among their activation triggers, so asking for an answer could
