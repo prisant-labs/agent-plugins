@@ -8,6 +8,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-25
+
+### Changed
+
+- Repinned `prisant-utilities` from `v0.3.0` to `v0.4.0`, the "gates that cannot fail open" release.
+  Both `plab-wrap-session` self-check detectors are now committed, canary-verified scripts that
+  report clean, findings, or broken, and refuse to report clean when they cannot prove they still
+  work. The path-citation gate also stopped flagging prose: measured on a real log it went from 6
+  false positives out of 7 flags to 2 out of 4.
+- Also in this pin: the session-log format gained a `(blocked since YYYY-MM-DD)` contract on Waiting
+  on You items with carry-forward across wraps, same-arc log supersession, and capture-lite
+  consumption. `plab-wrap-session` 1.6.0, `plab-continue-session` 1.4.0.
+
 ## 2026-08-24
 
 ### Changed
