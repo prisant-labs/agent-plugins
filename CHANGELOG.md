@@ -8,6 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-25 (later)
+
+### Changed
+
+- Repinned `prisant-utilities` from `v0.4.0` to `v0.4.1`. Session-log body prose is no longer
+  hard-wrapped, which matters most for the continuation prompt: it is meant to be pasted into a chat
+  box, and hard wraps arrived ragged. It also restores grep, since a search for any phrase longer
+  than the wrap width had been failing silently.
+
 ## 2026-08-25
 
 ### Changed
