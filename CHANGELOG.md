@@ -8,6 +8,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-24
+
+### Changed
+
+- Repinned `prisant-utilities` from `v0.2.0` to `v0.3.0`. Three skills migrated in from a private
+  library and are now installable: `plab-spec` 1.2.1 writes a feature specification with numbered
+  acceptance criteria each cited to a source, `plab-release-plan` 1.3.0 scopes a release and gates
+  the tag on hygiene checks plus a doc-update checklist, and `plab-init-project` 1.3.0 scaffolds
+  agent infrastructure into a repository. Five skills becomes eight.
+- All three ship with `disable-model-invocation: true`, so they never fire on their own. Type
+  `/plab-spec`, `/plab-release-plan` or `/plab-init-project`. Their trigger phrases ("spec", "init",
+  "set up project", "plan the release") are ordinary words in conversation about a repository, and
+  all three write files into one.
+- The catalog description for the entry now covers specification and release planning, which the
+  previous four-area wording did not.
+
 ## 2026-08-18
 
 ### Fixed
