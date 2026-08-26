@@ -1,4 +1,4 @@
-# agent-plugins
+# prisant-labs
 
 Marketplace for [prisant-labs](https://github.com/prisant-labs) Claude Code plugins.
 
@@ -11,7 +11,7 @@ Add it once and every plugin published here becomes available, including ones ad
 Then install what you want:
 
 ```
-/plugin install nonfiction-studio@agent-plugins
+/plugin install nonfiction-studio@prisant-labs
 ```
 
 ## Available plugins

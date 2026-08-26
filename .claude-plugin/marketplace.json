@@ -1,5 +1,5 @@
 {
-  "name": "agent-plugins",
+  "name": "prisant-labs",
   "description": "Marketplace for prisant-labs Claude Code plugins.",
   "owner": {
     "name": "JP Prisant"
@@ -18,10 +18,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/prisant-labs/prisant-utilities.git",
-        "ref": "v0.4.2"
+        "ref": "v0.4.3"
       },
       "description": "General-purpose agent skills for the work around the work: session continuity, structured analysis, guide authoring, cross-LLM peer review, and the specification and release-planning documents that sit between an idea and a tag.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "homepage": "https://github.com/prisant-labs/prisant-utilities",
       "license": "MIT"
     }

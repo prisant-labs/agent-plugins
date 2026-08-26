@@ -8,6 +8,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-26
+
+### Changed
+
+- **Marketplace renamed from `agent-plugins` to `prisant-labs`.** The manifest registered itself
+  after its repository, while the sibling `product-on-purpose` marketplace in an identically-named
+  repository registers after its organisation. A marketplace is keyed by its manifest name, so the
+  two displayed inconsistently and this one's install target read `@agent-plugins`.
+
+  The repository slug is unchanged, so `/plugin marketplace add prisant-labs/agent-plugins` still
+  reads the same. Only the install target moves, to `/plugin install <plugin>@prisant-labs`.
+
+  **This is an identity change, not a display change.** An install registered under the old name
+  must be removed and reinstalled; it does not migrate on update.
+
+- Repinned `prisant-utilities` from `v0.4.2` to `v0.4.3`, which carries the matching install-line
+  corrections across its README and eight skill usage docs, plus a new `docs/status-skills.md`.
+
 ## 2026-08-25 (CI only)
 
 ### Changed
