@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-25 (CI only)
+
+### Changed
+
+- Repinned `prisant-utilities` from `v0.4.1` to `v0.4.2`. CI moved its SARIF upload to
+  codeql-action v4; the v3 action targets Node 20 and its line deprecates in December 2026. No skill
+  or plugin surface change, so nothing about installing or using the plugin differs.
+
 ## 2026-08-25 (later)
 
 ### Changed
