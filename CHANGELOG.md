@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-08-28 (later)
+
+### Changed
+
+- Repinned `prisant-utilities` from `v0.5.0` to `v0.5.1`. Tracked specs no longer cite gitignored working notes, and a machine path containing the maintainer's username was removed from a published spec. No change to how the marketplace is added or how the plugin is installed.
+
 ## 2026-08-28
 
 ### Changed
