@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-09-24
+
+### Changed
+
+- Pinned `nonfiction-studio` to `v0.1.0`, its first release. Its repository is now public, so the entry installs: `/plugin install nonfiction-studio@prisant-labs`. The entry gains `version`, `homepage`, and `license` fields to match the other listing.
+- The marketplace owner is named in full, Jonathan Prisant.
+
 ## 2026-08-28 (later)
 
 ### Changed

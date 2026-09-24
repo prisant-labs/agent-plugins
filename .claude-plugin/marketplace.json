@@ -2,16 +2,20 @@
   "name": "prisant-labs",
   "description": "Marketplace for prisant-labs Claude Code plugins.",
   "owner": {
-    "name": "JP Prisant"
+    "name": "Jonathan Prisant"
   },
   "plugins": [
     {
       "name": "nonfiction-studio",
       "source": {
         "source": "url",
-        "url": "https://github.com/prisant-labs/nonfiction-studio.git"
+        "url": "https://github.com/prisant-labs/nonfiction-studio.git",
+        "ref": "v0.1.0"
       },
-      "description": "Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support."
+      "description": "Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/prisant-labs/nonfiction-studio",
+      "license": "MIT"
     },
     {
       "name": "prisant-utilities",
