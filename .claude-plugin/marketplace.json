@@ -10,10 +10,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/prisant-labs/nonfiction-studio.git",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "homepage": "https://github.com/prisant-labs/nonfiction-studio",
       "license": "MIT"
     },

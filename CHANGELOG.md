@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-09-25
+
+### Changed
+
+- Repinned `nonfiction-studio` from `v0.1.0` to `v0.1.1`. On a marketplace install, the CLI-backed skills (quick-scan, tour, check-chapter, doctor, fact-check, new-book, build-apparatus, status-dashboard) could not find their own command-line tools; 0.1.1 fixes that. Existing installs update with `/plugin update nonfiction-studio@prisant-labs`. No change to how the marketplace is added.
+
 ## 2026-09-24
 
 ### Changed
