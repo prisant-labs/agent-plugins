@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-10-13
+
+### Changed
+
+- Repinned `nonfiction-studio` from `v0.1.1` to `v0.2.0`. The release adds `nfs-adopt`, which adopts a manuscript you already have without changing your files. It also moves each book's records from the hidden `.studio/` folder to a visible `_nonfiction-studio/` folder. That move is a breaking change for a book created by 0.1.x: after updating, run `/nonfiction-studio:nfs-doctor migrate` once in that book. Existing installs update with `/plugin update nonfiction-studio@prisant-labs`. No change to how the marketplace is added.
+
 ## 2026-09-25
 
 ### Changed
