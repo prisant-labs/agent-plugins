@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-10-16
+
+### Changed
+
+- Repinned `nonfiction-studio` from `v0.2.0` to `v0.2.1`. Every earlier release shipped a Stop hook that sent Claude back to work at the end of each turn, up to nine times in a row; 0.2.1 removes it. The release needs no migration. Existing installs update with `/plugin update nonfiction-studio@prisant-labs`. No change to how the marketplace is added.
+
 ## 2026-10-13
 
 ### Changed
