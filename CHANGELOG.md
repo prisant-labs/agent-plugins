@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-10-19
+
+### Changed
+
+- Renamed the `prisant-utilities` entry to `prisant-powertools` and pinned it to `v0.9.0`, following the plugin's own rename. Its repository moved to `prisant-labs/prisant-powertools`, and GitHub redirects the old URL. An existing install moves by installing the new key and uninstalling the old one: `/plugin install prisant-powertools@prisant-labs`, then `/plugin uninstall prisant-utilities@prisant-labs`. In Codex, run `codex plugin add prisant-powertools@prisant-labs`, then `codex plugin remove prisant-utilities@prisant-labs`. No change to how the marketplace is added.
+
 ## 2026-10-16
 
 ### Changed
