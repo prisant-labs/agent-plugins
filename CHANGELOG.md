@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-10-28
+
+### Changed
+
+- Repinned `prisant-powertools` to `v0.10.0`. The release adds `plab-current-status`, a manual-only skill that writes a dated, ranked status snapshot of a repository, and adds `--answered-since` to `plab-resolve-open-items`'s backlog sweep. Update with `claude plugin marketplace update prisant-labs` and `claude plugin update prisant-powertools@prisant-labs`, or in Codex with `codex plugin marketplace upgrade prisant-labs`.
+
 ## 2026-10-19
 
 ### Changed
