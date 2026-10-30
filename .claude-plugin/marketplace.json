@@ -19,6 +19,10 @@
     },
     {
       "name": "prisant-powertools",
+      "displayName": "Prisant Power Tools",
+      "author": {
+        "name": "Prisant Labs"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/prisant-labs/prisant-powertools.git",

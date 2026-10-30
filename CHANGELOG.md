@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Gave the `prisant-powertools` entry a `displayName` of "Prisant Power Tools" and an `author` of "Prisant Labs". Before this, plugin listings showed the name derived from the `prisant-powertools` key ("Prisant powertools") and credited the plugin's own manifest author ("JP"). Entry display fields override the plugin's `plugin.json`, and they are the only fields a listing can show before install, because the entry's source is a git URL. No reinstall is needed; `claude plugin marketplace update prisant-labs` picks the change up.
+
 ## 2026-10-28
 
 ### Changed
