@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-11-03
+
+### Changed
+
+- Repinned `prisant-powertools` to `v0.12.0`. `plab-wrap-session` now writes its session log before it asks any hygiene question, then asks every proposal in one numbered batch and amends the log with the answers. `plab-continue-session` no longer reports a pull request merged during a wrap as new work. `plab-usage-audit` dates its recommendation ids, `plab-project-pulse --week` ranks work by readiness for a long autonomous run, and `plab-current-status` reports each open pull request's CI state. No skill was added or removed. Update with `claude plugin marketplace update prisant-labs` and `claude plugin update prisant-powertools@prisant-labs`, or in Codex with `codex plugin marketplace upgrade prisant-labs`.
+
 ## 2026-10-30
 
 ### Changed
