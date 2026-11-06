@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-11-06
+
+### Changed
+
+- Repinned `prisant-powertools` to `v0.13.0`. It adds `plab-ship`, a manual-only skill that documents, verifies, screens and merges finished branches in one pass, with an optional release, and opens its report in plain English. No existing skill changed.
+
 ## 2026-11-03
 
 ### Changed
