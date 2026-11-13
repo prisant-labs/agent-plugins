@@ -19,7 +19,7 @@ Then install what you want:
 | Plugin | What it does | Status |
 |---|---|---|
 | [nonfiction-studio](https://github.com/prisant-labs/nonfiction-studio) | Turns Claude into a governed non-fiction book studio: specialist subagents, a plain-Markdown project bible, deterministic quality gates, and publishing compliance support. | Available |
-| [prisant-powertools](https://github.com/prisant-labs/prisant-powertools) | Session continuity (wrap and resume), structured analysis briefs, guide bundles, cross-LLM peer review, feature specs, release planning, repository status snapshots, weekly Claude Code usage audits, a weekly cross-repository pulse, shipping finished branches, and project scaffolding. Fourteen skills, `plab-` prefix; seven run on explicit invocation only. | Available |
+| [prisant-powertools](https://github.com/prisant-labs/prisant-powertools) | Session continuity (wrap and resume), structured analysis briefs, guide bundles, cross-LLM peer review, feature specs, release planning, repository status snapshots, weekly Claude Code usage audits, a weekly cross-repository pulse, shipping finished branches, organization profile READMEs, and project scaffolding. Fifteen skills, `plab-` prefix; eight run on explicit invocation only. | Available |
 
 **Note on availability:** this marketplace is public, but a plugin listed here installs only once its own repository is public. An entry marked "Not yet public" fails to install until that happens. The listing is published early so the marketplace name is stable from the start.
 

@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-11-12
+
+### Changed
+
+- Repinned `prisant-powertools` to `v0.14.0`. Session logs now record which session wrote them, resuming asks which session to continue when several left handoffs, and every wrap ends with a summary in the conversation. `plab-org-profile-readme`, a manual-only skill that keeps an organization's profile README current, ships for the first time, which makes fifteen skills, eight of them manual-only.
+
 ## 2026-11-06
 
 ### Changed
