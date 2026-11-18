@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 
+- Repinned `nonfiction-studio` to `v0.2.2`. A chapter with no claim markers is now reported as unmarked instead of 100 percent covered, and `nfs-fact-check` no longer halts on a chapter with open claims.
 - Repinned `prisant-powertools` to `v0.14.1`. `/plab-ship` no longer stops a merge because the branch edited a document that also holds an open decision. It stops only when the branch changes that decision's own entry.
 
 ## 2026-11-12
