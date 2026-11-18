@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-11-17
+
+### Changed
+
+- Repinned `prisant-powertools` to `v0.14.1`. `/plab-ship` no longer stops a merge because the branch edited a document that also holds an open decision. It stops only when the branch changes that decision's own entry.
+
 ## 2026-11-12
 
 ### Changed
