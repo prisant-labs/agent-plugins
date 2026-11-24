@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-11-24
+
+### Changed
+
+- Repinned `nonfiction-studio` to `v0.2.3`. `ns-gate --chapter` naming a chapter that does not exist now stops with an error instead of reporting a pass.
+
 ## 2026-11-17
 
 ### Changed
