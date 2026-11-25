@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- The `prisant-powertools` entry gains `"category": "development"` and a link to the Prisant Labs organization in its author. The pin is unchanged.
+
 ## 2026-11-24
 
 ### Changed
