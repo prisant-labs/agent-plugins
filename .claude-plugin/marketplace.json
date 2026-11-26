@@ -30,7 +30,7 @@
         "url": "https://github.com/prisant-labs/prisant-powertools.git",
         "ref": "v0.15.0"
       },
-      "description": "General-purpose agent skills for the work around the work: session continuity, structured analysis, guide authoring, cross-LLM peer review, repository auditing, resolving open questions and decisions, status snapshots, weekly usage audits and a cross-repository pulse, shipping finished branches, keeping an organization's profile README current, and the specification and release-planning documents that sit between an idea and a tag.",
+      "description": "General-purpose agent skills for the work around the work: session continuity, structured analysis, guide authoring, cross-LLM peer review, repository auditing, resolving open questions and decisions, status snapshots, weekly usage audits and a cross-repository pulse, shipping finished branches, keeping an organization's profile README current, and the specification and release-planning documents that sit between an idea and a tag. Released 2026-11-25.",
       "version": "0.15.0",
       "homepage": "https://github.com/prisant-labs/prisant-powertools",
       "license": "MIT"
