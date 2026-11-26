@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Repinned `prisant-powertools` to `v0.15.0`. The Codex plugin page now shows a website, a developer, descriptions and suggested prompts; no skill changed.
 - The `prisant-powertools` entry gains `"category": "development"` and a link to the Prisant Labs organization in its author.
+- The `prisant-powertools` entry's description ends with `Released 2026-11-25.`, the date of v0.15.0, because no plugin manifest field carries a release date. Restamp it at each repin.
 
 ## 2026-11-24
 
